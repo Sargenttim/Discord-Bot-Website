@@ -26,6 +26,7 @@ export default function Tos() {
 <div className="py-3"></div>
 <div className="py-3"></div>
 <p><b>Cubecloud Team, reserves the rights to prohibit any user or any server from using global chat feature if they fail to comply with our rules. Rules will be pinned in global chat channel once chat is activated.</b></p>
+<div className="py-3"></div>
 <p>1. Servers must use an appropiate server name. </p>
 <p>2. You must not use global chat for fraudulent activities or advertising. </p>
 <p>3. Ratelimits can be imposed on servers which cause overload in the global chat. </p>
