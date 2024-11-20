@@ -1,4 +1,5 @@
 export default function Tos() {
+  <img width="500" src="/img/tos.png" />
   return (
     <div>
      <h2 className="mt-4 text-white font-bold text-3xl">Terms of Services</h2>
