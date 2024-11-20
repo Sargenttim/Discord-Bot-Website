@@ -33,7 +33,7 @@ export default function Privacy() {
         <div className="py-3"></div>
         <p>⊳ Contact Us:</p> 
         <div className="py-3"></div>
-        <p>⊳ If you have any questions or concerns about this Privacy Policy, please join the discord https://discord.gg/m4RBuRUuhB.</p> 
+        <p>⊳ If you have any questions or concerns about this Privacy Policy, please join the <a className="text-white" href="https://discord.gg/m4RBuRUuhB">discord</a>.</p> 
         <div className="py-3"></div>
         <p>⊳ Effective Date:</p> 
         <div className="py-3"></div>
