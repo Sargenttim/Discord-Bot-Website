@@ -11,7 +11,7 @@ class MyDocument extends Document {
           <meta name="googlebot" content="index,follow" />
           <meta
             name="description"
-            content="How about listening to music without pausing? Create your own playlists with 750+ supported sound platforms and start listening."
+            content="CubeCloud is the ultimate all-in-one Discord bot, offering features like music playback, advanced moderation, and customization to enhance your server experience. Secure, reliable, and always up-to-date."
           />
           <meta name="twitter:card" content="summary" />
           <meta name="twitter:site" content="@CubeCloud" />
@@ -26,7 +26,7 @@ class MyDocument extends Document {
           />
           <meta
             property="og:description"
-            content="How about listening to music without pausing? Create your own playlists with 750+ supported sound platforms and start listening."
+            content="CubeCloud is the ultimate all-in-one Discord bot, offering features like music playback, advanced moderation, and customization to enhance your server experience. Secure, reliable, and always up-to-date."
           />
           <meta property="og:image" content="/img/logo.jpg" />
           <meta property="og:image:alt" content="CubeCloud" />
