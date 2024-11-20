@@ -20,7 +20,7 @@ export default function Partners() {
                         <div className="flex-1 gap-x-4 flex items-center bg-gradient-to-b from-neutral-900/80 to-neutral-900/20 p-3 rounded-full">
                             <img className="rounded-full h-32 w-32" src="https://share.cubecloud.ca/299729731237052417/em3Fyb.png" />
                             <div>
-                                <h1 className="leading-none text-3xl font-bold text-white">Valor Code</h1>        
+                                <h1 className="leading-none text-3xl font-bold text-white">Valor Node</h1>        
                                 <div className="flex items-center mt-1">
                                     <p className="font-normal font-sm">
                                       Hosting for all your needs, Game Hosting, VPS Hosting, Web Hosting, IP Subnets, Discord Bot Hosting, and more
