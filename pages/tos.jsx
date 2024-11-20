@@ -6,14 +6,15 @@ export default function Tos() {
   <div className="animateHeader text-white text-opacity-40 mt-5">
 <p><b>Terms of service for the Cubecloud Bot, this guides our clients on how they can use Cubecloud Bot.</b></p>
 <div className="py-3"></div>
-<p>-Conditions</p>
+<p><b>-Conditions</b></p>
 <div className="py-3"></div>
-<p>-General conditions regarding Cubecloud bot are under this topic.</p>
+<p><b>-General conditions regarding Cubecloud bot are under this topic.</b></p>
 <div className="py-3"></div>
 <p>1. Our terms and conditions apply to each and every user of Cubecloud Bot.</p>
 <p>2. By adding Cubecloud in your server, you agree to these terms of service and the future terms which we may add after a notice.</p>
 <div className="py-3"></div>
-<p>- Terms of Use</p>
+<p><b>- Terms of Use</b></p>
+<div className="py-3"></div>
 <p>1. The client must not resell the premium codes. </p>
 <p>2. Intentional command spam or attempts to crash the bot should not be made. </p>
 <p>3. Cubecloud should not be used in Bot spam servers which cause command spam. </p>
@@ -21,9 +22,10 @@ export default function Tos() {
 <p>5. The client is responsible for any violation caused by them. </p>
 <p>6. We have the rights to update terms of service anytime with a notice in the support server. </p>
 <div className="py-3"></div>
-<p>- Terms of Use (Global Chat) </p>
+<p><b>- Terms of Use (Global Chat) </b></p>
 <div className="py-3"></div>
-<p>Cubecloud Team, reserves the rights to prohibit any user or any server from using global chat feature if they fail to comply with our rules. Rules will be pinned in global chat channel once chat is activated.</p>
+<div className="py-3"></div>
+<p><b>Cubecloud Team, reserves the rights to prohibit any user or any server from using global chat feature if they fail to comply with our rules. Rules will be pinned in global chat channel once chat is activated.</b></p>
 <p>1. Servers must use an appropiate server name. </p>
 <p>2. You must not use global chat for fraudulent activities or advertising. </p>
 <p>3. Ratelimits can be imposed on servers which cause overload in the global chat. </p>
