@@ -9,9 +9,6 @@ export default function Index() {
         <div className="flex w-full justify-center">
       <img width="500" src="/img/bck.png" />
       </div>
-        <p className="animateHeader text-4xl font-extrabold text-center text-white">
-          CubeCloud
-        </p>
         <p className="animateHeader text-white text-opacity-50 text-center mt-5">
         CubeCloud is your all-in-one Discord bot, designed to enhance every aspect of your server. Offering a comprehensive set of features, CubeCloud helps you manage, entertain, and engage your community like never before. Whether you’re looking to improve server efficiency or create unforgettable experiences, CubeCloud is your go-to solution. 
 	  </p>
