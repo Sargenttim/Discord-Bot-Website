@@ -89,9 +89,9 @@ Vote CubeCloud</a>
                   <img src="https://share.cubecloud.ca/299729731237052417/_X0qa1.png"  width="256" className="lg:hidden rounded-xl mb-5 shadow-xl shadow-black" />
                   <p className="text-3xl text-white font-semibold">Ready to Level Up?</p>
                   <p className="text-md text-white font-medium line-clamp-5">CubeCloud isn’t just a bot; it’s the ultimate tool to elevate your Discord server.</p>
-                  <p classname="text-md text-white font-medium line-clamp-5">From advanced moderation features to music playback and everything in between, </p>
-                  <p classname="text-md text-white font-medium line-clamp-5">CubeCloud helps you build an engaging and well-managed community.</p>
-                  <p classname="text-md text-white font-medium line-clamp-5">Are you ready to unlock the full potential of your server? CubeCloud is here to make it happen.</p>
+                  <p classname="text-md text-white font-medium line-clamp-6">From advanced moderation features to music playback and everything in between, </p>
+                  <p classname="text-md text-white font-medium line-clamp-7">CubeCloud helps you build an engaging and well-managed community.</p>
+                  <p classname="text-md text-white font-medium line-clamp-8">Are you ready to unlock the full potential of your server? CubeCloud is here to make it happen.</p>
                 </div>
                 <img src="" className="hidden lg:block rounded-xl perspective-right shadow-xl shadow-black" />
               </>
