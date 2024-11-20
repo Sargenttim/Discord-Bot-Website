@@ -57,7 +57,7 @@ Vote CubeCloud</a>
               <div>
                 <div className="text-white">
                   <p className="text-xl font-semibold mt-5"><i className={`fa fa-cogs text-2xl text-amber-500`} /> Optimization</p>
-                  <p className="text-gray-500 line-clamp-4">With fast and customizable settings specific to your server, CubeCloud gives you a musical pleasure to the fullest.</p>
+                  <p className="text-gray-500 line-clamp-4">Experience seamless performance with CubeCloud. Engineered for speed and efficiency, CubeCloud is fully optimized to handle any task, from music playback to server management, ensuring that everything runs smoothly. Our customizable settings allow you to tailor CubeCloud to your server’s unique needs, making it the perfect addition to any community.</p>
                 </div>
               </div>
               <div>
@@ -86,7 +86,7 @@ Vote CubeCloud</a>
       <div className="flex flex-row w-full h-auto lg:h-56 my-14 lg:my-40 bg-gradient-to-br lg:px-30 from-neutral-900/90 flex items-center justify-start to-neutral-900/50 rounded-lg p-1 shadow-md">
               <>
                 <div className="lg:mx-4 lg:p-8 py-4 lg:py-16 flex items-center justify-center flex-col text-center w-full lg:w-auto lg:text-left lg:flex-none">
-                  <img src="https://share.cubecloud.ca/299729731237052417/_X0qa1.png"  width="256" className="lg:hidden rounded-xl mb-5 shadow-xl shadow-black" />
+                  <img src=""  width="256" className="lg:hidden rounded-xl mb-5 shadow-xl shadow-black" />
                   <p className="text-3xl text-white font-semibold">Best Your Bot</p>
                   <p className="text-md text-white font-medium text-gray-500 line-clamp-5">Are you ready to throw the best parties with CubeCloud, the best and most up-to-date bot?</p>
                 </div>
