@@ -93,7 +93,6 @@ Vote CubeCloud</a>
                   <p classname="text-md text-white font-medium line-clamp-7">CubeCloud helps you build an engaging and well-managed community.</p>
                   <p classname="text-md text-white font-medium line-clamp-8">Are you ready to unlock the full potential of your server? CubeCloud is here to make it happen.</p>
                 </div>
-                <img src="" className="hidden lg:block rounded-xl perspective-right shadow-xl shadow-black" />
               </>
       
         </div>
