@@ -13,7 +13,7 @@ export default function Index() {
           CubeCloud
         </p>
         <p className="animateHeader text-white text-opacity-50 text-center mt-5">
-        CubeCloud is your ultimate Discord bot, providing a wide range of features to enhance your server experience. 
+        CubeCloud is your all-in-one Discord bot, designed to enhance every aspect of your server. Offering a comprehensive set of features, CubeCloud helps you manage, entertain, and engage your community like never before. Whether you’re looking to improve server efficiency or create unforgettable experiences, CubeCloud is your go-to solution. 
 	  </p>
         <div className="animateHeader mt-10 flex flex-wrap items-center justify-center gap-x-4">
   
@@ -63,19 +63,19 @@ Vote CubeCloud</a>
               <div>
                 <div className="text-white">
                   <p className="text-xl font-semibold mt-5"><i className={`fa fa-universal-access text-2xl text-amber-500`} /> Universal</p>
-                  <p className="text-gray-500 line-clamp-4">A bot that supports multi-platform music playback. (Spotify, Souncloud, YouTube) | (It is a bot that complies with all copyrights and licenses.)</p>
+                  <p className="text-gray-500 line-clamp-4">CubeCloud supports a wide array of platforms, including Spotify, SoundCloud, and YouTube, so you can enjoy music wherever it’s available. Our bot guarantees smooth, high-quality playback while ensuring full compliance with copyright laws. CubeCloud brings all your music services together, making it the ultimate bot for your entertainment needs.</p>
                 </div>
               </div>
               <div>
                 <div className="text-white">
                   <p className="text-xl font-semibold mt-5"><i className={`fa fa-shield text-2xl text-amber-500`} /> Security</p>
-                  <p className="text-gray-500 line-clamp-4">An open source safe bot that you can browse and help us develop.</p>
+                  <p className="text-gray-500 line-clamp-4">Security is a top priority at CubeCloud. As a trusted bot, CubeCloud is built with robust safeguards to protect your server and user data. While CubeCloud is not open-source, we ensure a high level of transparency and ongoing updates to provide a secure and reliable service. You can rest assured that CubeCloud is always up-to-date with the latest security protocols</p>
                 </div>
               </div>
               <div>
                 <div className="text-white">
                   <p className="text-xl font-semibold mt-5"><i className={`fa fa-ticket text-2xl text-amber-500`} /> Support</p>
-                  <p className="text-gray-500 line-clamp-4">With our best teammates, we provide the fastest response to anyone who needs help.</p>
+                  <p className="text-gray-500 line-clamp-4">At CubeCloud, we pride ourselves on providing outstanding support. Our dedicated team is always available to assist with any questions, issues, or feature requests you may have. Whether you're a new user or a long-time community member, we make sure you get the best help in the fastest time possible.</p>
                 </div>
               </div>
           </div>
@@ -87,8 +87,8 @@ Vote CubeCloud</a>
               <>
                 <div className="lg:mx-4 lg:p-8 py-4 lg:py-16 flex items-center justify-center flex-col text-center w-full lg:w-auto lg:text-left lg:flex-none">
                   <img src="https://share.cubecloud.ca/299729731237052417/_X0qa1.png"  width="256" className="lg:hidden rounded-xl mb-5 shadow-xl shadow-black" />
-                  <p className="text-3xl text-white font-semibold">Best Your Bot</p>
-                  <p className="text-md text-white font-medium text-gray-500 line-clamp-5">Are you ready to throw the best parties with CubeCloud, the best and most up-to-date bot?</p>
+                  <p className="text-3xl text-white font-semibold">Ready to Level Up?</p>
+                  <p className="text-md text-white font-medium text-gray-500 line-clamp-5">CubeCloud isn’t just a bot; it’s the ultimate tool to elevate your Discord server. From advanced moderation features to music playback and everything in between, CubeCloud helps you build an engaging and well-managed community. Are you ready to unlock the full potential of your server? CubeCloud is here to make it happen.</p>
                 </div>
                 <img src="" className="hidden lg:block rounded-xl perspective-right shadow-xl shadow-black" />
               </>
