@@ -32,6 +32,14 @@ export default function AwardApp({ Component, pageProps }) {
       activeIcon: "fa fa-list-alt",
       href: "/commands",
     },
+    
+    {
+      link: true,
+      name: "Partners",
+      icon: "fal fa-handshake",
+      activeIcon: "fa fa-handshake",
+      href: "/partners",
+    },
     {
       link: true,
       name: "Support",
@@ -52,13 +60,6 @@ export default function AwardApp({ Component, pageProps }) {
       icon: "fa fa-plus",
       activeIcon: "fa fa-plus",
       href: "https://top.gg/bot/1202693084090081320",
-    },
-    {
-      link: true,
-      name: "Partners",
-      icon: "fal fa-handshake",
-      activeIcon: "fa fa-handshake",
-      href: "/partners",
     }
   ]
 
