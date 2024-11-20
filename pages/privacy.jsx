@@ -2,6 +2,7 @@ export default function Privacy() {
 
     return (
         <div>
+            <img width="500" src="/img/pp.png" />
             <h1 className="font-semibold text-3xl text-white/75">Privacy Policy for CubeCloud</h1>
             <p className="text-sm text-white/30 mb-4">Last updated: November 20, 2024  🆕️</p>
   <div className="animateHeader text-white text-opacity-40 mt-5">
