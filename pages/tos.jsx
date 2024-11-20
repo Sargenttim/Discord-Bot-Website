@@ -1,6 +1,11 @@
-<div className="lg:mx-4 lg:p-8 py-4 lg:py-16 flex items-center justify-center flex-col text-center w-full lg:w-auto lg:text-left lg:flex-none">
-<img src="https://share.cubecloud.ca/299729731237052417/_X0qa1.png"  width="256" className="lg:hidden rounded-xl mb-5 shadow-xl shadow-black" />
-</div>
+import React from 'react';
+import logo from './tos.png';
+console.log(logo); // /logo.84287d09.png
+
+function Header() {
+  // Import result is the URL of your image
+  return <img src={logo} alt="Logo" />;
+}
   
 export default function Tos() {
   
