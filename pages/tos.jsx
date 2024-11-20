@@ -1,5 +1,9 @@
+<div className="lg:mx-4 lg:p-8 py-4 lg:py-16 flex items-center justify-center flex-col text-center w-full lg:w-auto lg:text-left lg:flex-none">
+<img src="https://share.cubecloud.ca/299729731237052417/_X0qa1.png"  width="256" className="lg:hidden rounded-xl mb-5 shadow-xl shadow-black" />
+</div>
+  
 export default function Tos() {
-  <img src="https://share.cubecloud.ca/299729731237052417/_X0qa1.png"  width="256" className="lg:hidden rounded-xl mb-5 shadow-xl shadow-black" />
+  
   return (
     <div>
      <h2 className="mt-4 text-white font-bold text-3xl">Terms of Services</h2>
