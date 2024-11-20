@@ -3,6 +3,7 @@ import Link from "next/link";
 
 export default function Commands() {
 const commands = [
+  "Administrator",
   "/ai - Manage AI channels for your server.",
   "/antisystem - Manage server anti-systems with advanced settings and whitelists.",
   "/backup - 🗄️ Comprehensive server backup system.",
@@ -18,6 +19,7 @@ const commands = [
   "/staff - Manage staff login, roster, role categories, and status updates.",
   "/sticky-messages - Set up sticky messages in the server channel.",
   "/ticket - Ticket Setup",
+  "Conext Menu",
   "/avatar - Get a users Avatar",
   "/thanks - Say thanks to a user",
   "/translate - Translate to English"
