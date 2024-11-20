@@ -4,14 +4,13 @@ export default function Tos() {
      <h2 className="mt-4 text-white font-bold text-3xl">Terms of Services</h2>
       <p className="text-sm text-white/30 mb-1">Last Update: November 20, 2024 🆕️</p>
   <div className="animateHeader text-white text-opacity-40 mt-5">
-<p>⊳ Terms of service for the Cubecloud Bot, this guides our clients on how they can use Cubecloud Bot.</p>
+<p><b>Terms of service for the Cubecloud Bot, this guides our clients on how they can use Cubecloud Bot.</b></p>
 <div className="py-3"></div>
-<p>- Conditions</p>
+<p>-Conditions</p>
 <div className="py-3"></div>
-<p>⊳ General conditions regarding Cubecloud bot are under this topic.</p>
+<p>-General conditions regarding Cubecloud bot are under this topic.</p>
 <div className="py-3"></div>
 <p>1. Our terms and conditions apply to each and every user of Cubecloud Bot.</p>
-<div className="py-3"></div>
 <p>2. By adding Cubecloud in your server, you agree to these terms of service and the future terms which we may add after a notice.</p>
 <div className="py-3"></div>
 <p>- Terms of Use</p>
@@ -21,7 +20,9 @@ export default function Tos() {
 <p>4. Cubecloud Team reserves the rights to prohibit any server or user from using Cubecloud. </p>
 <p>5. The client is responsible for any violation caused by them. </p>
 <p>6. We have the rights to update terms of service anytime with a notice in the support server. </p>
+<div className="py-3"></div>
 <p>- Terms of Use (Global Chat) </p>
+<div className="py-3"></div>
 <p>Cubecloud Team, reserves the rights to prohibit any user or any server from using global chat feature if they fail to comply with our rules. Rules will be pinned in global chat channel once chat is activated.</p>
 <p>1. Servers must use an appropiate server name. </p>
 <p>2. You must not use global chat for fraudulent activities or advertising. </p>
