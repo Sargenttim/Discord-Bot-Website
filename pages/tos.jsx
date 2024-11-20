@@ -1,5 +1,5 @@
 export default function Tos() {
-  <img width="500" src="/img/tos.png" />
+  <img src="https://share.cubecloud.ca/299729731237052417/_X0qa1.png"  width="256" className="lg:hidden rounded-xl mb-5 shadow-xl shadow-black" />
   return (
     <div>
      <h2 className="mt-4 text-white font-bold text-3xl">Terms of Services</h2>
