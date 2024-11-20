@@ -1,4 +1,6 @@
- 
+import image1 from '/img/tos.png';
+<img src={image1} />
+
 export default function Tos() {
   
   return (
