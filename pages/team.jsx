@@ -50,7 +50,7 @@ export default function Teams() {
                                 <h1 className="leading-none text-3xl font-bold text-white">Head Manager Deadeye</h1>        
                                 <div className="flex items-center mt-1">
                                     <p className="font-normal font-sm">
-                                    Hey, I’m Deadeye! I’m 15 and I’m on my way to becoming a developer. I’m still learning, but I’m lucky to have ZayDocs guiding me along the way. Watching him code Discord bots and build amazing projects like CubeCloud inspires me every day.
+                                    Hey, I’m Deadeye! I’m 15 and I’m on my way to becoming a developer. I’m still learning, but I’m lucky to have ZayDocs guiding me. Watching him code Discord bots and build amazing projects like CubeCloud.
                                     </p>
                                 </div>     
                             </div>
