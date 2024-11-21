@@ -42,6 +42,13 @@ export default function AwardApp({ Component, pageProps }) {
     },
     {
       link: true,
+      name: "Team",
+      icon: "fal fa-handshake",
+      activeIcon: "fa fa-handshake",
+      href: "/team",
+    },
+    {
+      link: true,
       name: "Support",
       icon: "fab fa-discord",
       activeIcon: "fab fa-discord",
