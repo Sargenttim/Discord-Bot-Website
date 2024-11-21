@@ -22,7 +22,35 @@ export default function Teams() {
                                 <h1 className="leading-none text-3xl font-bold text-white">Founder/CEO Timmy</h1>        
                                 <div className="flex items-center mt-1">
                                     <p className="font-normal font-sm">
-                                      Hi I am Timmy CEO/Founder of CubeCloud bought this bot a while ago to make it better then the other public bots
+                                      Hi I am Timmy CEO/Founder of CubeCloud bought this bot a while ago to make it better then the other public bots.
+                                    </p>
+                                </div>     
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="flex flex-col justify-center text-white rounded">
+                        <div className="flex-1 gap-x-4 flex items-center bg-gradient-to-b from-neutral-900/80 to-neutral-900/20 p-3 rounded-full">
+                            <img className="rounded-full h-32 w-32" src="https://share.cubecloud.ca/299729731237052417/3ragMa.jpg" />
+                            <div>
+                                <h1 className="leading-none text-3xl font-bold text-white">Manager Hydro</h1>        
+                                <div className="flex items-center mt-1">
+                                    <p className="font-normal font-sm">
+                                      Hi I am a bad dev.
+                                    </p>
+                                </div>     
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="flex flex-col justify-center text-white rounded">
+                        <div className="flex-1 gap-x-4 flex items-center bg-gradient-to-b from-neutral-900/80 to-neutral-900/20 p-3 rounded-full">
+                            <img className="rounded-full h-32 w-32" src="https://share.cubecloud.ca/299729731237052417/ihtiin.png" />
+                            <div>
+                                <h1 className="leading-none text-3xl font-bold text-white">Admin Chase</h1>        
+                                <div className="flex items-center mt-1">
+                                    <p className="font-normal font-sm">
+                                    Hello I am Chase, a 13 year old developer in the languages and for the programs such as Python, Lua, HTML, CSS. Just to be clear I know more python and Lua then I do HTML and CSS. I am glad you chose CubeCloud it was a great decision! One fun fact about me is I am the youngest member on the staff team! Once again I am Administrator Chase!
                                     </p>
                                 </div>     
                             </div>
