@@ -31,6 +31,34 @@ export default function Teams() {
 
                     <div className="flex flex-col justify-center text-white rounded">
                         <div className="flex-1 gap-x-4 flex items-center bg-gradient-to-b from-neutral-900/80 to-neutral-900/20 p-3 rounded-full">
+                            <img className="rounded-full h-32 w-32" src="https://share.cubecloud.ca/299729731237052417/ZKBpfh.webp" />
+                            <div>
+                                <h1 className="leading-none text-3xl font-bold text-white">Head Dev Zay</h1>        
+                                <div className="flex items-center mt-1">
+                                    <p className="font-normal font-sm">
+                                      test.
+                                    </p>
+                                </div>     
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="flex flex-col justify-center text-white rounded">
+                        <div className="flex-1 gap-x-4 flex items-center bg-gradient-to-b from-neutral-900/80 to-neutral-900/20 p-3 rounded-full">
+                            <img className="rounded-full h-32 w-32" src="https://share.cubecloud.ca/299729731237052417/4wPFue.jpg" />
+                            <div>
+                                <h1 className="leading-none text-3xl font-bold text-white">Head Manager Deadeye</h1>        
+                                <div className="flex items-center mt-1">
+                                    <p className="font-normal font-sm">
+                                    I’m the youngest to be this high up in the server.
+                                    </p>
+                                </div>     
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="flex flex-col justify-center text-white rounded">
+                        <div className="flex-1 gap-x-4 flex items-center bg-gradient-to-b from-neutral-900/80 to-neutral-900/20 p-3 rounded-full">
                             <img className="rounded-full h-32 w-32" src="https://share.cubecloud.ca/299729731237052417/3ragMa.jpg" />
                             <div>
                                 <h1 className="leading-none text-3xl font-bold text-white">Manager Hydro</h1>        
