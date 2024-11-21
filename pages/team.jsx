@@ -50,7 +50,7 @@ export default function Teams() {
                                 <h1 className="leading-none text-3xl font-bold text-white">Admin Chase</h1>        
                                 <div className="flex items-center mt-1">
                                     <p className="font-normal font-sm">
-                                    Hello I am Chase, a 13 year old developer in the languages and for the programs such as Python, Lua, HTML, CSS. Just to be clear I know more python and Lua then I do HTML and CSS. I am glad you chose CubeCloud it was a great decision! One fun fact about me is I am the youngest member on the staff team! Once again I am Administrator Chase!
+                                    Hello im Administrator Chase a 13 year old developer in the languages Lua, Python, HTML, CSS. I mainly make FiveM resources. Thank you for choosing CubeCloud!
                                     </p>
                                 </div>     
                             </div>
