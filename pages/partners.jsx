@@ -50,7 +50,7 @@ export default function Partners() {
                     <div className="flex flex-col justify-center text-white rounded">
             <a href="https://toxicityprotection.com/">
                         <div className="flex-1 gap-x-4 flex items-center bg-gradient-to-b from-neutral-900/80 to-neutral-900/20 p-3 rounded-full">
-                            <img className="rounded-full h-32 w-32" src="https://share.cubecloud.ca/299729731237052417/MY-iDs.png" />
+                            <img className="rounded-full h-32 w-32" src="https://share.cubecloud.ca/299729731237052417/w3IFqP.webp" />
                             <div>
                                 <h1 className="leading-none text-3xl font-bold text-white">Toxicity Protection</h1>        
                                 <div className="flex items-center mt-1">
