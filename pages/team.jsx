@@ -8,7 +8,7 @@ export default function Teams() {
       <img width="400" src="/img/staff.png" />
       </div>
                 <h1 className="py-7 animateHeader text-4xl font-extrabold text-center text-white">
-                    <i className="fa-user-group-crown text-amber-400 mr-2" />
+                    <i className="fal fa-users text-amber-400 mr-2" />
                     Team Members
                 </h1>
             </div>
