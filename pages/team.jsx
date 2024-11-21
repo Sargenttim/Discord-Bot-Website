@@ -36,7 +36,7 @@ export default function Teams() {
                                 <h1 className="leading-none text-3xl font-bold text-white">Head Dev Zay</h1>        
                                 <div className="flex items-center mt-1">
                                     <p className="font-normal font-sm">
-                                      test.
+                                    Hey! I’m ZayDocs, an 18-year-old developer passionate about creating unique Discord bots. My main project, CubeCloud, reflects my love for coding and building user-friendly experiences. I’m always up for exploring new ideas and pushing the limits of what’s possible. Let’s create something amazing!
                                     </p>
                                 </div>     
                             </div>
