@@ -78,6 +78,8 @@ export default function Footer() {
                                         Privacy Policy
                                     </a>
                                 </Link>
+                            </div>
+                            <div>
                                 <Link href="https://status.cubecloud.ca">
                                     <a className="text-white/50 hover:text-white hover:underline transform duration-200">
                                         Status Page 
