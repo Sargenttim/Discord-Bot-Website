@@ -80,7 +80,7 @@ export default function Footer() {
                                 </Link>
                                 <Link href="https://status.cubecloud.ca">
                                     <a className="text-white/50 hover:text-white hover:underline transform duration-200">
-                                    <i className={`fa-brands fa-discord`} /> Status Page 
+                                        Status Page 
                                     </a>
                                 </Link>
                             </div>
