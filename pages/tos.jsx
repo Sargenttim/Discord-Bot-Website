@@ -3,7 +3,7 @@ export default function Tos() {
   return (
     <div>
       <img width="500" src="/img/tos.png" />
-      <p className="text-sm text-white/30 mb-1">Last Update: November 20, 2024 🆕️</p>
+      <p className="text-sm text-white/30 mb-1">Last Update: November 23, 2024 🆕️</p>
   <div className="animateHeader text-white text-opacity-40 mt-5">
 <p><b>Terms of service for the Cubecloud Bot, this guides our clients on how they can use Cubecloud Bot.</b></p>
 <div className="py-3"></div>
@@ -13,6 +13,7 @@ export default function Tos() {
 <div className="py-3"></div>
 <p>1. Our terms and conditions apply to each and every user of Cubecloud Bot.</p>
 <p>2. By adding Cubecloud in your server, you agree to these terms of service and the future terms which we may add after a notice.</p>
+<p>3. By joining any server that has the Cubecloud bot you are accepting out Terms of Service and Privacy Policy. (If you do not read these that isn't anything we can do)</p>
 <div className="py-3"></div>
 <p><b>- Terms of Use</b></p>
 <div className="py-3"></div>
@@ -21,7 +22,7 @@ export default function Tos() {
 <p>3. Cubecloud should not be used in Bot spam servers which cause command spam. </p>
 <p>4. Cubecloud Team reserves the rights to prohibit any server or user from using Cubecloud. </p>
 <p>5. The client is responsible for any violation caused by them. </p>
-<p>6. We have the rights to update terms of service anytime with a notice in the support server. </p>
+<p>6. We have the rights to update terms of service or Privacy Policy anytime with a notice in the support server.</p>
 <div className="py-3"></div>
 <p><b>- Terms of Use (Global Chat) </b></p>
 <div className="py-3"></div>

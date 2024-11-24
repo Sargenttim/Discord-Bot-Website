@@ -3,7 +3,7 @@ export default function Privacy() {
     return (
         <div>
             <img width="500" src="/img/pp.png" />
-            <p className="text-sm text-white/30 mb-4">Last updated: November 20, 2024  🆕️</p>
+            <p className="text-sm text-white/30 mb-4">Last updated: November 23, 2024  🆕️</p>
   <div className="animateHeader text-white text-opacity-40 mt-5">
         <p>This Privacy Policy governs the collection, use, and sharing of personal information by CubeCloud, a Discord bot developed by Timmycas & Zaydocs. By using CubeCloud, you agree to the terms of this Privacy Policy. <a className="text-white">(READ MESSAGES, SEND MESSAGES, EMBED LINKS, ATTACH FILES, READ MESSAGE HISTORY, CONNECT, SPEAK, USE VOICE ACTIVITY, PRIORITY SPEAKER)</a></p>
         <div className="py-3"></div>
@@ -87,7 +87,7 @@ export default function Privacy() {
         <p>Changes to this Policy</p>
         <p>We may update this Privacy Policy from time to time, and we will post the updated policy on our website. Your continued use of CubeCloud after changes to this policy indicates your acceptance of the revised policy.</p>
         <div className="py-3"></div>
-        
+
         <p>Contact Us</p>
         <p>If you have any questions or concerns about this Privacy Policy, please join our Discord server: https://discord.gg/m4RBuRUuhB.</p>
 
