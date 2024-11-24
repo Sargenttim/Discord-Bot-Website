@@ -1,8 +1,33 @@
 import Link from "next/link";
 import { Menu } from '@headlessui/react';
 import { ChevronDownIcon } from '@heroicons/react/solid';
+import { useEffect, useState } from 'react';
 
 export default function Footer() {
+    const [botStatus, setBotStatus] = useState('Checking...'); // Default status
+
+    // Function to fetch bot status
+    const checkBotStatus = async () => {
+        try {
+            const response = await fetch('http://147.124.197.226:3000/status'); // Replace with your actual API URL
+            if (!response.ok) throw new Error('Failed to fetch');
+            const data = await response.json();
+            if (data.status === 'online') {
+                setBotStatus('Bot Online');
+            } else {
+                setBotStatus('Bot Offline');
+            }
+        } catch (error) {
+            setBotStatus('Bot Offline'); // Fallback on error
+        }
+    };
+
+    // Ping the API every 10 seconds
+    useEffect(() => {
+        checkBotStatus(); // Initial check
+        const interval = setInterval(checkBotStatus, 10000);
+        return () => clearInterval(interval); // Cleanup interval on unmount
+    }, []);
 
     return (
         <>
@@ -31,7 +56,6 @@ export default function Footer() {
                                     </Menu.Button>
                                 </div>
                             </Menu>
-                        
                         </div>
                         <div className="col-span-1">
                             <p className="text-white font-medium mt-3 sm:mt-0 sm:mb-3">Links</p>
@@ -58,7 +82,7 @@ export default function Footer() {
                             <div>
                                 <Link href="https://discord.gg/m4RBuRUuhB">
                                     <a className="text-white/50 hover:text-white hover:underline transform duration-200">
-                                    <i className={`fa-brands fa-discord`} /> Disocrd 
+                                        <i className={`fa-brands fa-discord`} /> Discord
                                     </a>
                                 </Link>
                             </div>
@@ -82,7 +106,7 @@ export default function Footer() {
                             <div>
                                 <Link href="https://status.cubecloud.ca">
                                     <a className="text-white/50 hover:text-white hover:underline transform duration-200">
-                                        Status Page 
+                                        Status Page
                                     </a>
                                 </Link>
                             </div>
@@ -93,9 +117,9 @@ export default function Footer() {
                             {new Date().getFullYear()} &copy; CubeCloud
                         </p>
                         <div className="hidden md:flex items-center justify-center">
-                                <p className={"text-xs text-green-400"}>
-                                    Bot Online
-                                </p>
+                            <p className={`text-xs ${botStatus === 'Bot Online' ? 'text-green-400' : 'text-red-400'}`}>
+                                {botStatus}
+                            </p>
                         </div>
                         <p className="text-white text-center sm:text-right text-opacity-50">
                             {"Powered by CubeCloud"}
