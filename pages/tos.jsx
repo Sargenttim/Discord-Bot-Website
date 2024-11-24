@@ -7,7 +7,7 @@ export default function Tos() {
     <div className="animateHeader text-white text-opacity-40 mt-5">
     <p><b>Welcome to Cubecloud Bot! These Terms of Service ("Terms") govern your use of Cubecloud Bot and its features. By using Cubecloud Bot, you agree to comply with these Terms and our Privacy Policy.</b></p>
 
-    <p><b>If you have any questions, please contact us via the official support server.</b></p>
+    <p><b>If you have any questions, please contact us via the official <a className="text-white" href="https://discord.gg/m4RBuRUuhB">support server.</a></b></p>
     <div className="py-3"></div>
     <p>1. General Conditions</p>
     <div className="py-3"></div>
@@ -80,7 +80,7 @@ export default function Tos() {
     <div className="py-3"></div>
     <p>4.3 Data Requests</p>
     <div className="py-3"></div>
-    <p>Users have the right to request the removal of their data in accordance with applicable data protection regulations. To initiate a data removal request, please reach out to us through our support server.</p>
+    <p>Users have the right to request the removal of their data in accordance with applicable data protection regulations. To initiate a data removal request, please reach out to us through our <a className="text-white" href="https://discord.gg/m4RBuRUuhB">support server.</a></p>
     <div className="py-3"></div>
     <p>5. Liability and Disclaimers</p>
     <div className="py-3"></div>
@@ -110,17 +110,17 @@ export default function Tos() {
     <div className="py-3"></div>
     <p>6.2 Appeals</p>
     <div className="py-3"></div>
-    <p>Users or servers seeking to contest a restriction or ban may submit an appeal via the support server. All appeals will be thoroughly evaluated on an individual basis.</p>
+    <p>Users or servers seeking to contest a restriction or ban may submit an appeal via the <a className="text-white" href="https://discord.gg/m4RBuRUuhB">support server.</a> All appeals will be thoroughly evaluated on an individual basis.</p>
     <div className="py-3"></div>
     <p>7. Updates to Terms</p>
     <div className="py-3"></div>
-    <p>Cubecloud Bot reserves the right to modify or update these Terms at any time. Notice of changes will be posted in the support server. Continued use of the bot after updates constitutes acceptance of the revised Terms.</p>
+    <p>Cubecloud Bot reserves the right to modify or update these Terms at any time. Notice of changes will be posted in the <a className="text-white" href="https://discord.gg/m4RBuRUuhB">support server.</a> Continued use of the bot after updates constitutes acceptance of the revised Terms.</p>
     <div className="py-3"></div>
     <p><b>8. Contact Us</b></p>
     <div className="py-3"></div>
     <p><b>For questions, concerns, or assistance, please contact us via:</b></p>
 
-    <p>The official support server.</p>
+    <p>The official <a className="text-white" href="https://discord.gg/m4RBuRUuhB">support server.</a></p>
     <p>Email: support@cubecloudbot.com.</p>
     <p>Thank you for choosing Cubecloud Bot!</p>
   </div>
