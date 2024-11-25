@@ -9,7 +9,7 @@ export default function Footer() {
     // Function to fetch bot status
     const checkBotStatus = async () => {
         try {
-            const response = await fetch('http://147.124.197.226:9100/status'); // Replace with your actual API URL
+            const response = await fetch('http://147.124.197.226:9100'); // Replace with your actual API URL
             if (!response.ok) throw new Error('Failed to fetch');
             const data = await response.json();
             if (data.status === 'online') {
