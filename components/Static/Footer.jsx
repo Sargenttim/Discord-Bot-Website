@@ -16,7 +16,7 @@ export default function Footer() {
                 setBotStatus('Bot Offline'); // Server responded with an error status
             }
         } catch (error) {
-            setBotStatus('Bot Offline'); // Fallback on error
+            setBotStatus('Bot Error'); // Fallback on error
         }
     };
 
@@ -116,7 +116,7 @@ export default function Footer() {
                         </p>
                         <div className="hidden md:flex items-center justify-center">
                             <p className={`text-xs ${botStatus === 'Bot Online' ? 'text-green-400' : 'text-red-400'}`}>
-                                Bot: {botStatus}
+                                {botStatus}
                             </p>
                         </div>
                         <p className="text-white text-center sm:text-right text-opacity-50">
