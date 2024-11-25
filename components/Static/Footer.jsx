@@ -18,7 +18,7 @@ export default function Footer() {
                 setBotStatus('Bot Offline');
             }
         } catch (error) {
-            setBotStatus('Bot Error');
+            setBotStatus('API Error');
         }
     };
 
