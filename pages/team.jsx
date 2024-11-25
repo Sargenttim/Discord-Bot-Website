@@ -84,6 +84,19 @@ export default function Teams() {
                             </div>
                         </div>
                     </div>
+                    <div className="flex flex-col justify-center text-white rounded">
+                        <div className="flex-1 gap-x-4 flex items-center bg-gradient-to-b from-neutral-900/80 to-neutral-900/20 p-3 rounded-full">
+                            <img className="rounded-full h-32 w-32" src="/teamimg/devyxi.png" />
+                            <div>
+                                <h1 className="leading-none text-3xl font-bold text-white">Head Management Devyxi</h1>        
+                                <div className="flex items-center mt-1">
+                                    <p className="font-normal font-sm">
+                                    Hey I'm Devyxi I'm 16 years old and passionate about coding and sports. A few months ago, I joined CubeCloud as one of their developers, where I'm excited to contribute my skills and learn from the experience
+                                    </p>
+                                </div>     
+                            </div>
+                        </div>
+                    </div>
 
                 </div>
                 <div className="py-10"></div>
