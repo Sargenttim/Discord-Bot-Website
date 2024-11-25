@@ -9,7 +9,7 @@ export default function Footer() {
     // Function to check the bot status
     const checkBotStatus = async () => {
         try {
-            const response = await fetch('https://panel.cubecloud.ca/server/02074342', {
+            const response = await fetch('https://147.124.197.226:9100', {
                 method: 'HEAD',
             }); // Replace with your actual endpoint or a server you control
             if (response.ok) {
