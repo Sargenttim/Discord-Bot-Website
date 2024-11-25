@@ -6,26 +6,24 @@ import { useEffect, useState } from 'react';
 export default function Footer() {
     const [botStatus, setBotStatus] = useState('Checking...'); // Default status
 
-    // Function to fetch bot status
-    const checkBotStatus = async () => {
+    // Function to ping the IP address
+    const pingIP = async () => {
         try {
-            const response = await fetch('147.124.197.226'); // Replace with your actual API URL
-            if (!response.ok) throw new Error('Failed to fetch');
-            const data = await response.json();
-            if (data.status === 'online') {
-                setBotStatus('Bot Online');
+            const response = await fetch('http://147.124.197.226', { method: 'HEAD' }); // Use HEAD to check server availability
+            if (response.ok) {
+                setBotStatus('Bot Online'); // IP is reachable
             } else {
-                setBotStatus('Bot Offline');
+                setBotStatus('Bot Offline'); // Server responded with an error status
             }
         } catch (error) {
             setBotStatus('Bot Offline'); // Fallback on error
         }
     };
 
-    // Ping the API every 10 seconds
+    // Ping the IP every 10 seconds
     useEffect(() => {
-        checkBotStatus(); // Initial check
-        const interval = setInterval(checkBotStatus, 10000);
+        pingIP(); // Initial ping
+        const interval = setInterval(pingIP, 10000);
         return () => clearInterval(interval); // Cleanup interval on unmount
     }, []);
 
@@ -118,7 +116,7 @@ export default function Footer() {
                         </p>
                         <div className="hidden md:flex items-center justify-center">
                             <p className={`text-xs ${botStatus === 'Bot Online' ? 'text-green-400' : 'text-red-400'}`}>
-                                {botStatus}
+                                Bot: {botStatus}
                             </p>
                         </div>
                         <p className="text-white text-center sm:text-right text-opacity-50">
