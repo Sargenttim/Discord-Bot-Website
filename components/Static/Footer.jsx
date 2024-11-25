@@ -6,24 +6,26 @@ import { useEffect, useState } from 'react';
 export default function Footer() {
     const [botStatus, setBotStatus] = useState('Checking...'); // Default status
 
-    // Function to ping the IP address
-    const pingIP = async () => {
+    // Function to check the bot status
+    const checkBotStatus = async () => {
         try {
-            const response = await fetch('http://147.124.197.226', { method: 'HEAD' }); // Use HEAD to check server availability
+            const response = await fetch('https://https://panel.cubecloud.ca/server/02074342', {
+                method: 'HEAD',
+            }); // Replace with your actual endpoint or a server you control
             if (response.ok) {
-                setBotStatus('Bot Online'); // IP is reachable
+                setBotStatus('Bot Online');
             } else {
-                setBotStatus('Bot Offline'); // Server responded with an error status
+                setBotStatus('Bot Offline');
             }
         } catch (error) {
-            setBotStatus('Bot Error'); // Fallback on error
+            setBotStatus('Bot Offline');
         }
     };
 
-    // Ping the IP every 10 seconds
+    // Ping the bot every 10 seconds
     useEffect(() => {
-        pingIP(); // Initial ping
-        const interval = setInterval(pingIP, 10000);
+        checkBotStatus(); // Initial check
+        const interval = setInterval(checkBotStatus, 10000);
         return () => clearInterval(interval); // Cleanup interval on unmount
     }, []);
 
@@ -127,4 +129,4 @@ export default function Footer() {
             </footer>
         </>
     );
-};
+}
