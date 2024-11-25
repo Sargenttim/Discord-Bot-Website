@@ -17,7 +17,7 @@ export default function Teams() {
 
             <div className="flex flex-col justify-center text-white rounded">
                         <div className="flex-1 gap-x-4 flex items-center bg-gradient-to-b from-neutral-900/80 to-neutral-900/20 p-3 rounded-full">
-                            <img className="rounded-full h-32 w-32" src="/img/tos.png" />
+                            <img className="rounded-full h-32 w-32" src="/teamimg/timmy.gif" />
                             <div>
                                 <h1 className="leading-none text-3xl font-bold text-white">Founder/CEO Timmy</h1>        
                                 <div className="flex items-center mt-1">
@@ -45,7 +45,7 @@ export default function Teams() {
 
                     <div className="flex flex-col justify-center text-white rounded">
                         <div className="flex-1 gap-x-4 flex items-center bg-gradient-to-b from-neutral-900/80 to-neutral-900/20 p-3 rounded-full">
-                            <img className="rounded-full h-32 w-32" src="https://share.cubecloud.ca/299729731237052417/4wPFue.jpg" />
+                            <img className="rounded-full h-32 w-32" src="/teamimg/deadeye.jpg" />
                             <div>
                                 <h1 className="leading-none text-3xl font-bold text-white">Head Manager Deadeye</h1>        
                                 <div className="flex items-center mt-1">
@@ -59,9 +59,9 @@ export default function Teams() {
 
                     <div className="flex flex-col justify-center text-white rounded">
                         <div className="flex-1 gap-x-4 flex items-center bg-gradient-to-b from-neutral-900/80 to-neutral-900/20 p-3 rounded-full">
-                            <img className="rounded-full h-32 w-32" src="https://share.cubecloud.ca/299729731237052417/3ragMa.jpg" />
+                            <img className="rounded-full h-32 w-32" src="/teamimg/hydro.jpg" />
                             <div>
-                                <h1 className="leading-none text-3xl font-bold text-white">Manager Hydro</h1>        
+                                <h1 className="leading-none text-3xl font-bold text-white">Human Resources Hydro</h1>        
                                 <div className="flex items-center mt-1">
                                     <p className="font-normal font-sm">
                                       Hi I am a bad dev.
@@ -73,7 +73,7 @@ export default function Teams() {
 
                     <div className="flex flex-col justify-center text-white rounded">
                         <div className="flex-1 gap-x-4 flex items-center bg-gradient-to-b from-neutral-900/80 to-neutral-900/20 p-3 rounded-full">
-                            <img className="rounded-full h-32 w-32" src="https://share.cubecloud.ca/299729731237052417/ihtiin.png" />
+                            <img className="rounded-full h-32 w-32" src="/teamimg/chase.png" />
                             <div>
                                 <h1 className="leading-none text-3xl font-bold text-white">Admin Chase</h1>        
                                 <div className="flex items-center mt-1">
