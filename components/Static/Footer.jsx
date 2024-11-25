@@ -6,17 +6,12 @@ import { useEffect, useState } from 'react';
 export default function Footer() {
     const [botStatus, setBotStatus] = useState('Checking...'); // Default status
 
-    // Function to check the bot status
-    const checkBotStatus = async () => {
+    // Function to fetch bot status
+    const fetchBotStatus = async () => {
         try {
-            const response = await fetch('https://147.124.197.226:9100', {
-                method: 'HEAD',
-            }); // Replace with your actual endpoint or a server you control
-            if (response.ok) {
-                setBotStatus('Bot Online');
-            } else {
-                setBotStatus('Bot Offline');
-            }
+            const response = await fetch('http://147.124.197.226:9100/ping-bot'); // Replace with your backend URL
+            const data = await response.json();
+            setBotStatus(data.status === 'online' ? 'Bot Online' : 'Bot Offline');
         } catch (error) {
             setBotStatus('API Error');
         }
@@ -24,8 +19,8 @@ export default function Footer() {
 
     // Ping the bot every 10 seconds
     useEffect(() => {
-        checkBotStatus(); // Initial check
-        const interval = setInterval(checkBotStatus, 10000);
+        fetchBotStatus(); // Initial check
+        const interval = setInterval(fetchBotStatus, 10000);
         return () => clearInterval(interval); // Cleanup interval on unmount
     }, []);
 
