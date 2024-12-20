@@ -38,10 +38,10 @@ export default function Gdpr() {
         <p>CubeCloud does not use automated decision-making or profiling that significantly affects users.</p>
         <div className="py-3"></div>
         <p>Cookies and Tracking Technologies</p>
-        <p>CubeCloud does not currently use cookies or similar tracking technologies. If this changes, we will update this Privacy Policy accordingly.</p>
+        <p>CubeCloud does not currently use cookies or similar tracking technologies. If this changes, we will update this GDPR accordingly.</p>
         <div className="py-3"></div>
         <p>Changes to This Policy</p>
-        <p>We may update this Privacy Policy periodically. Any updates will be posted on our website. Continued use of CubeCloud after updates indicates your acceptance of the revised policy.</p>
+        <p>We may update this GDPR periodically. Any updates will be posted on our website. Continued use of CubeCloud after updates indicates your acceptance of the revised policy.</p>
         <div className="py-3"></div>
         <p>Contact Us</p>
         <p>If you have any questions or concerns about this GDPR please contact the Legal team at legal@cubecloud.ca.</p>
@@ -50,7 +50,7 @@ export default function Gdpr() {
         <p>This revision incorporates GDPR requirements while maintaining clarity for all users. Let me know if you need further adjustments!</p>
         <div className="py-3"></div>
         <p>Effective Date</p>
-        <p>This Privacy Policy is effective as of November 23, 2024.</p>
+        <p>This GDPR is effective as of November 23, 2024.</p>
         <div className="py-3"></div>
     
         </div>
